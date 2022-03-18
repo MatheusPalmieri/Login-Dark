@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    background-color: #262c33;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    text-align: center;
+}
+
+.btn{
+    bottom: 0;
+    position: fixed;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 0;
+    background: none;
+    outline: none;
+    border: 2px solid #199c05;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, .6);
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #199c05;
+    color: white;
+}
+
+.btn:focus{
+    background-color: #199c05;
+    color: white;
+}
+
+.icon{
+    position: absolute;
+    width: 50px;
+    fill: white;
+    transition: .2s ease-in-out;
+}
+
+.icon:hover{
+    width: 60px;
+    fill: #199c05;
+}
+
+.link-rede ul{
+    position: relative;
+    margin-top: 50px;
+    list-style: none;
+    text-align: center;
+}
+
+.link-rede li{
+    display: inline-block;
+    margin-right: 100px;
+}

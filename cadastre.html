@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="css/cadastre.css">
+    <link rel="icon" href="image/matheus.png" type="image/x-icon">
+</head>
+<body>
+    <form class="form-create" action="index.html" method="post" id="formC">
+        <!-- Title -->
+        <h1>Create account</h1>
+
+        <!-- User -->
+        <label for="user">
+            <input type="text" id="userUserC" name="name" placeholder="Username" class="mar-user">
+        </label>
+        <!-- Password -->
+        <label for="password">
+            <input type="password" id="userPassC" name="password" minlength="3" placeholder="Password" class="mar-password">
+        </label>
+        <!-- E-mail -->
+        <label for="email">
+            <input type="email" id="userEmailC" name="email" placeholder="E-mail" class="email">
+        </label>
+
+        <!-- Create account -->
+        <button type="submit" id="btn" class="btn">Create account</button>
+    </form>
+    <!-- JavaScript -->
+    <script src="javascript/cadastre.js"></script>
+</body>
+</html>
