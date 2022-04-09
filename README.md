@@ -1,7 +1,3 @@
-
-<img src="image/imagem.png">
-
-<a href="https://logindark-matheuspalmieri.netlify.app//" target="_blank">Site do Projeto</a>
 <!-- Título -->
 
 <h1 align="center">Login Dark</h1>
